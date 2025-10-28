@@ -2,7 +2,7 @@
 
 A Java-based hospital management system with GUI interface for managing doctors and patients.
 
-## Features##
+## Features
 
 - **User Authentication**: Role-based login (Admin/Receptionist)
 - **Doctor Management**: Add and view doctor information
