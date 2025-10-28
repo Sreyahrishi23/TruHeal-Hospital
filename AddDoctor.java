@@ -43,7 +43,7 @@ public class AddDoctor extends JFrame {
         add(phone);
 
         JButton save = new JButton("Save");
-        save.setBackground(new Color(173, 216, 230)); // Light blue
+        save.setBackground(new Color(173, 216, 230)); 
         save.setForeground(Color.BLACK);
         save.addActionListener(e -> saveDoctor());
         add(save);
