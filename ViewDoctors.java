@@ -37,7 +37,6 @@ public class ViewDoctors extends JFrame {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         add(scroll);
         setVisible(true);
     }
