@@ -52,7 +52,7 @@ public class AdmitPatient extends JFrame {
         addressLabel.setForeground(Color.BLACK);
         add(addressLabel);
         addressField = new JTextField();
-        addressField.setBackground(new Color(173, 216, 230)); // Light blue
+        addressField.setBackground(new Color(173, 216, 230)); 
         addressField.setForeground(Color.BLACK);
         add(addressField);
 
