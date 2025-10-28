@@ -24,7 +24,7 @@ public class ViewAppointments extends JFrame {
         table = new JTable(model);
         table.setBackground(Color.WHITE);
         table.setForeground(Color.BLACK);
-        table.getTableHeader().setBackground(new Color(173, 216, 230)); // Light blue
+        table.getTableHeader().setBackground(new Color(173, 216, 230));
         table.getTableHeader().setForeground(Color.BLACK);
         add(new JScrollPane(table), BorderLayout.CENTER);
 
