@@ -18,7 +18,7 @@ public class ViewPatients extends JFrame {
         JTable table = new JTable(model);
         table.setBackground(Color.WHITE);
         table.setForeground(Color.BLACK);
-        table.getTableHeader().setBackground(new Color(173, 216, 230)); // Light blue
+        table.getTableHeader().setBackground(new Color(173, 216, 230)); // Light
         table.getTableHeader().setForeground(Color.BLACK);
         table.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
         JScrollPane scroll = new JScrollPane(table);
