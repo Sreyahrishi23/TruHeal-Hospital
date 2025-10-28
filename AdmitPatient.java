@@ -63,7 +63,7 @@ public class AdmitPatient extends JFrame {
         add(saveBtn);
 
         JButton cancelBtn = new JButton("Cancel");
-        cancelBtn.setBackground(new Color(173, 216, 230)); // Light blue
+        cancelBtn.setBackground(new Color(173, 216, 230)); 
         cancelBtn.setForeground(Color.BLACK);
         cancelBtn.addActionListener(e -> dispose());
         add(cancelBtn);
